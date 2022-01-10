@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de bolsillo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="window">
+                <h2>Aplicación de bolsillo</h2>
+                <div class="budget-feedback">Mensaje de alerta</div>
+                <div class="cont cont-budget">
+                    <form id="budget-form" class="budget-form" action="submit">
+                    <h3>Ingresos</h3>
+                    <p>Por favor, digita el valor de tu ingreso:</p>
+                    <div class="form-group">
+                        <input type="number" class="form-control budget-input" id="budget-input">
+                        <!-- submit button -->
+                        <button type="submit" class="btn budget-submit btn-budget"
+                            id="budget-submit">Ingresar</button>
+                    
+                        </div>
+                    </form>
+                </div>
+
+                <!-- expense feedback -->
+                <div class="expense-feedback">Mensaje de alerta</div>
+                <div class="cont cont-expense">
+                    <form id="expense-form" class="expense-form" action="submit">
+                    <h3>Egresos</h3>
+                    <p>Por favor, escribe el nombre de tu egreso:</p>
+                    <input type="text" class="form-control expense-input" id="expense-input">
+                    <p>Ahora digita el valor de tu egreso:</p>
+                    <div class="form-group">
+                        <input type="number" class="form-control expense-input" id="amount-input">
+                        <!-- submit button -->
+                        <button type="submit" class="btn expense-submit btn-expense"
+                            id="budget-submit">Ingresar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="window">
+                <h2>Resultados</h2>
+                <div class="results">
+                    <div class="result result-balance">
+                        <div class="value">
+                            <h4>Balance</h4>
+                            <h4 class="balance" id="balance"> <span>$ </span><span
+                                    id="balance-amount">0</span></h4>
+                        </div>
+                        <span class="balance-icon"><img class='money-icon' src="media/cheap-icon.png" alt="Ícono de moneda"></span>
+                    </div>
+
+                    <div class="result result-budget">
+                            <h4>Ingresos</h4>
+                            <h4 class="balance" id="budget"> <span>$ </span><span
+                                    id="budget-amount">0</span></h4>
+                    </div>
+
+                    <div class="result result-expense">
+                            <h4>Egresos</h4>
+                            <h4 class="balance" id="expense"> <span>$ </span><span
+                                    id="expense-amount">0</span></h4>
+                    </div>
+                </div>
+
+                <!-- expense list -->
+                <div class="expense-list" id="expense-list">
+
+                    <div class="expense expense-list__info">
+                        <h5 class="list-item">Nombre</h5>
+                        <h5 class="list-item">Valor</h5>
+                        <h5 class="list-item">Acciones</h5>
+                    </div>
+
+
+                    <!-- single expense -->
+                    <!-- <div class="expense-item" id="expense-item">
+
+                        <h6 class="expense-title">Comida</h6>
+                        <h5 class="expense-amount">$1.000</h5>
+
+                        <div class="expense-icons">
+                            <a href="#" class="edit-icon" data-id="${expense.id}">
+                                <img class="fas fa-edit" src="media/edit-icon.png" alt="" srcset="">
+                            </a>
+                            <a href="#" class="delete-icon" data-id="${expense.id}">
+                                <img class="fas fa-trash" src="media/delete-icon.png" alt="">
+                            </a>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
