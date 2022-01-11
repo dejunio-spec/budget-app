@@ -1,7 +1,14 @@
-# budget-app
-A spanish budget app page created while learning JS with a FreeCodeCamp course.
-These are the functions for the app:
+# Budget JS App 
+A spanish budget app page powered by JavaScript, HTML and CSS.
+
+## Features :thumbsup:
 - Registers the incomes and expenses.
-- Creates a list of the expenses which you can edit or delete any of them individually.
+- Creates a list of every expense registered.
+- Allows to edit and delete any expense.
 - Calculates the balance between the incomes and expenses.
-- Presents every one of these data in an organized way on the right side.
+- Simple intuitive design.
+
+## Live Preview
+You can try it on [CodePen](https://codepen.io/dejunio-spec/pen/wvrYemg).
+
+Thank you! :smile:
