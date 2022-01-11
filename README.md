@@ -6,9 +6,10 @@ A spanish budget app page powered by JavaScript, HTML and CSS.
 - Creates a list of every expense registered.
 - Allows to edit and delete any expense.
 - Calculates the balance between the incomes and expenses.
+- Shows a warning message in case any of the inputs is empty.
 - Simple intuitive design.
 
 ## Live Preview
-You can try it on [CodePen](https://codepen.io/dejunio-spec/pen/wvrYemg).
+You can try it on [CodePen](https://codepen.io/dejunio-spec/pen/VwMERmN).
 
 Thank you! :smile:
