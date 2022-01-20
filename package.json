@@ -1,0 +1,19 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "A spanish budget app page powered by JavaScript, HTML and CSS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejunio-spec/budget-app.git"
+  },
+  "author": "Jose Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejunio-spec/budget-app/issues"
+  },
+  "homepage": "https://github.com/dejunio-spec/budget-app#readme"
+}
